@@ -1,0 +1,38 @@
+getgenv().Selection = "Among Us"
+    function TheRock()
+        Rock = Instance.new("Sky", game.Lighting)
+        Rock.SkyboxBk = "http://www.roblox.com/asset/?ID=8620551404"
+        Rock.SkyboxDn = "http://www.roblox.com/asset/?ID=8620551404"
+        Rock.SkyboxFt = "http://www.roblox.com/asset/?ID=8620551404"
+        Rock.SkyboxLf = "http://www.roblox.com/asset/?ID=8620551404"
+        Rock.SkyboxRt = "http://www.roblox.com/asset/?ID=8620551404"
+        Rock.SkyboxUp = "http://www.roblox.com/asset/?ID=8620551404"
+    end
+    
+    function AmongUs()
+        Among = Instance.new("Sky", game.Lighting)
+        Among.SkyboxBk = "http://www.roblox.com/asset/?ID=9016028768"
+        Among.SkyboxDn = "http://www.roblox.com/asset/?ID=9016028768"
+        Among.SkyboxFt = "http://www.roblox.com/asset/?ID=9016028768"
+        Among.SkyboxLf = "http://www.roblox.com/asset/?ID=9016028768"
+        Among.SkyboxRt = "http://www.roblox.com/asset/?ID=9016028768"
+        Among.SkyboxUp = "http://www.roblox.com/asset/?ID=9016028768"
+    end
+    
+    function DaBaby()
+        Baby = Instance.new("Sky", game.Lighting)
+        Baby.SkyboxBk = "http://www.roblox.com/asset/?ID=6818272719"
+        Baby.SkyboxDn = "http://www.roblox.com/asset/?ID=6818272719"
+        Baby.SkyboxFt = "http://www.roblox.com/asset/?ID=6818272719"
+        Baby.SkyboxLf = "http://www.roblox.com/asset/?ID=6818272719"
+        Baby.SkyboxRt = "http://www.roblox.com/asset/?ID=6818272719"
+        Baby.SkyboxUp = "http://www.roblox.com/asset/?ID=6818272719"
+    end
+    
+    if getgenv().Selection == "The Rock" then
+        TheRock()
+    elseif getgenv().Selection == "Among Us" then
+        AmongUs()
+    elseif getgenv().Selection == "Da Baby" then
+        DaBaby()
+    end
